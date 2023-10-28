@@ -1,0 +1,74 @@
+body{
+  font-family: sans-serif;
+  /* background-color: #FFFADD; */
+}
+header {
+  background-color: #333;
+  color: white;
+  /* color: #FFEBD3; */
+  /* background-color: #226B80; */
+  place-content: center;
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+}
+#name{
+  /* margin-top:70px; */
+  display: grid;
+  place-content: center;
+}
+#name p{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+}
+header img{
+  border-radius: 75%;
+  float: left;
+  width: 200px;
+}
+nav {
+  background-color: #333;
+  /* background-color: #00C9A7; */
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+}
+nav ul {
+  margin: 0;
+  display: inline-block;
+}
+nav ul li{
+  margin: 0;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+nav ul li a{
+  margin: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  background-color: #226B80;
+}
+#content {
+}
+#content > div{
+  border-radius: 5px;
+  background-color: lightgray;
+  margin: 5px 0;
+  padding: 9px;
+  /* background-color: #226B80; */
+}
+#resume {
+  text-align: center;
+}
+#resume > button {
+  color: white;
+  background-color: darkslategray;
+  padding: 9px 15px ;
+  border-radius:  20px;
+}
